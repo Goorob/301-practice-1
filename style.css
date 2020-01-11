@@ -1,3 +1,23 @@
 body{
     background-color:#eee;
 }
+header{
+    background-color: black;
+    color: white;
+}
+footer{
+    background-color: darkgray;
+    color: black;
+}
+main{
+    background-color: navajowhite;
+    color: darkblue;
+}
+ul {
+    list-style: none;
+}
+li{
+    display : inline ;
+    border: 2px solid;
+    margin: 10px;
+}
