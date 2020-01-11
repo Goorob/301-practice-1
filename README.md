@@ -7,7 +7,7 @@
 
 
  *response.status(200).send('Hello World!');*
- we used the Response.send() method to send a simple string which is 'Hello world 1' as a response when status is 200 .
+ we used the Response.send() method to send a simple string which is 'Hello world ' as a response when status is 200 that when the the request of server was successfully received
 
  **3.Write a function that takes an array of numbers as an argument and outputs the square of each number in that array.** 
 
