@@ -12,9 +12,8 @@
  **3.Write a function that takes an array of numbers as an argument and outputs the square of each number in that array.** 
 
  function squareNum(arr) {
-    arr.forEach(element => {
-     let square=element*element;
-        arr.push(square);
+    let squareArr= arr.map(element => {
+     return element*element ;
     });
-    return arr ; 
+    return squareArr ; 
 }
